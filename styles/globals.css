@@ -280,31 +280,13 @@ footer{
     background-color: #2c2c2c;
 }
 .footer-content{
-    display: flex;
+    display: center;
     align-items: center;
     color: #c7c7c7;
-    padding: 1rem 2rem;
-    gap: 20rem;
+    padding: 2rem;
 }
 .logo-footer{
     text-align: center;
-}
-.links-footer h3{
-    color: #fff;
-    margin-bottom: 0.8rem;
-}
-.links-footer ul{
-    list-style: none;
-}
-.links-footer ul li{
-    margin-bottom: 0.5rem;
-    cursor: pointer;
-}
-.copyright{
-    color: #fff;
-    padding: 2rem 0;
-    text-align: center;
-
 }
 
 @media(max-windth: 800px){
@@ -315,8 +297,6 @@ footer{
     .footer-content>div{
         padding: 1rem;
     }
-    .copyright{
-        font-size: 0.8rem;
-    }
+   
 }
 /*end footer*/
